@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/hub1.unity
     guid: be3861b27d6cb41448697affa3f58c5d
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/_Archiv bzw Museum/hub.unity
     guid: e90302e5ef944b24a8df87c9e16850d7
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/_Archiv bzw Museum/barn1OLD.unity
     guid: fb4f210005c7acd49a55ec6e8ab8909c
   m_configObjects: {}
