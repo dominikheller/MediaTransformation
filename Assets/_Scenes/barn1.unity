@@ -1769,8 +1769,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314728954}
-  m_LocalRotation: {x: 0.30750534, y: 0.65440744, z: 0.33225402, w: -0.60563904}
-  m_LocalPosition: {x: 9.284943, y: 15.896736, z: 46.64665}
+  m_LocalRotation: {x: -0.24481873, y: 0.5705672, z: 0.18329084, w: 0.76218194}
+  m_LocalPosition: {x: -132.55612, y: -9.36451, z: -35.2591}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1923,7 +1923,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.4969e-41, y: 1.05e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.435e-42, y: 0, z: 0, w: 2.1e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 45
@@ -15629,7 +15629,7 @@ PrefabInstance:
     - target: {fileID: 8967531026591340540, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8967531026321201752, guid: de03094f24271544bb090668907abcd2,
         type: 3}
