@@ -72,8 +72,8 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 0
     m_Settings:
-      focusDistance: 10
-      aperture: 11.8
+      focusDistance: 2
+      aperture: 5
       focalLength: 50
       useCameraFov: 0
       kernelSize: 1
@@ -86,10 +86,10 @@ MonoBehaviour:
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
-      lowPercent: 45
-      highPercent: 95
-      minLuminance: -5
-      maxLuminance: 1
+      lowPercent: 33.782097
+      highPercent: 91.150764
+      minLuminance: -165.18
+      maxLuminance: -4.06
       keyValue: 0.25
       dynamicKeyValue: 1
       adaptationType: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 2
+        intensity: 2.5
         threshold: 1.1
         softKnee: 0.5
         radius: 4.62
