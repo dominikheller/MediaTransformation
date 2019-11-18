@@ -1,28 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TriggerEventCounter : MonoBehaviour
 {
-    public LevelChanger levelChanger;
+    public Text Score;
 
     public int triggerCount = 0;
 
-    private int maxTriggerCountValue = 5;
+    private int maxTriggerCountValue = 2;
+
+    private void Start()
+    {
+        Score.text = triggerCount + "/" + maxTriggerCountValue;
+    }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void onPointerEnterEventTrigger()
     {
         triggerCount++;
+        setScore();
 
         if (triggerCount == maxTriggerCountValue)
         {
             Debug.Log("Trigger something!");
 
-            // for example the level changer
-            // levelChanger.FadeToLevel("levelName");
+            //@todo for example set win text + load new scene
 
             triggerCount = 0;
         }
+    }
+
+
+    private void setScore()
+    {
+        Score.text = triggerCount + "/" + maxTriggerCountValue;
     }
 }
