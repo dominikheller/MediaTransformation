@@ -13,7 +13,7 @@ public class TriggerEventCounter : MonoBehaviour
 
     private void Start()
     {
-        Score.text = triggerCount + "/" + maxTriggerCountValue;
+        setScore();
     }
 
 
@@ -35,6 +35,6 @@ public class TriggerEventCounter : MonoBehaviour
 
     private void setScore()
     {
-        Score.text = triggerCount + "/" + maxTriggerCountValue;
+        Score.text = triggerCount.ToString() + "/" + maxTriggerCountValue.ToString();
     }
 }
