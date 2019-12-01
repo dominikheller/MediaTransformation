@@ -11,13 +11,14 @@ public class TriggerEventCounter : MonoBehaviour
 
     private int maxTriggerCountValue = 2;
 
+
     private void Start()
     {
         setScore();
     }
 
 
-    public void onPointerEnterEventTrigger()
+    public void onPointerClick()
     {
         triggerCount++;
         setScore();
