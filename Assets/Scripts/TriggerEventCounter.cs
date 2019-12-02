@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TriggerEventCounter : MonoBehaviour
 {
+    public Animator animator;
+
     /**
      * Canvas with score.
      **/
@@ -13,12 +16,12 @@ public class TriggerEventCounter : MonoBehaviour
     /**
      * Current found clues.
      **/
-    private int triggerCount = 0;
+    public int triggerCount = 0;
 
     /**
      * Maximum clue count.
      **/
-    private int maxTriggerCountValue = 3;
+    public int maxTriggerCountValue = 6;
 
     /**
      * Clue list (is needed to check if the current raycasted clue was already triggered).
@@ -41,22 +44,31 @@ public class TriggerEventCounter : MonoBehaviour
      **/
     public void onPointerClick()
     {
-        bool didHitAndNotTriggeredYet = validateRaycastedObject();
+        bool valid = validateRaycastedObject();
 
-        if (didHitAndNotTriggeredYet == true) {
+        if (valid == true) {
 
-            triggerCount++;
+            increaseTriggerCount();
             setScore();
 
             if (triggerCount == maxTriggerCountValue)
             {
-                Debug.Log("Trigger something!");
+                gameObject.GetComponent<AudioController>().startAudio();
 
-                //@todo for example set win text + load new scene
-          
+                //@todo fix animation
+                animator.SetTrigger("FadeOut");
                 triggerCount = 0;
             }
         }
+    }
+
+
+    /**
+     * Increases trigger count variable.
+     **/
+    private void increaseTriggerCount()
+    {
+        triggerCount++;
     }
 
 
@@ -68,6 +80,7 @@ public class TriggerEventCounter : MonoBehaviour
         Score.text = triggerCount.ToString() + "/" + maxTriggerCountValue.ToString();
     }
 
+
     /**
      * Validates if raycasted object was already triggered.
      **/
@@ -78,14 +91,23 @@ public class TriggerEventCounter : MonoBehaviour
         RaycastHit rhInfo;
         bool didHit = Physics.Raycast(toCenter, out rhInfo, 500.0f);
 
+        string colliderName;
+        if (rhInfo.collider.transform.parent != null)
+        {
+            colliderName = rhInfo.collider.transform.parent.name;
+        } else
+        {
+            colliderName = rhInfo.collider.transform.name;
+        }
+
         if (didHit)
         {
-            if (clueList.Contains(rhInfo.collider.transform.parent.name))
+            if (clueList.Contains(colliderName))
             {
                 return false;
             }
 
-            clueList.Add(rhInfo.collider.transform.parent.name);
+            clueList.Add(colliderName);
             return true;
         }
 
