@@ -7587,25 +7587,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicGVR
       objectReference: {fileID: 0}
-    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.763
+      propertyPath: m_ClearFlags
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.048980854
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
         type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.04898085
+      propertyPath: m_BackGroundColor.g
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
         type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.048980854
+      propertyPath: m_BackGroundColor.b
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025892355119, guid: de03094f24271544bb090668907abcd2,
         type: 3}
@@ -7661,6 +7661,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.763
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.048980854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04898085
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967531026321201748, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.048980854
       objectReference: {fileID: 0}
     - target: {fileID: 8967531026397563035, guid: de03094f24271544bb090668907abcd2,
         type: 3}
@@ -7746,26 +7766,6 @@ PrefabInstance:
     - target: {fileID: 8967531024989311645, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
-        type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
-        type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
-        type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
-        type: 3}
-      propertyPath: m_BackGroundColor.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967531026321201750, guid: de03094f24271544bb090668907abcd2,
@@ -8388,7 +8388,7 @@ PrefabInstance:
     - target: {fileID: 4683308666740327434, guid: b43bf4ebc66ca8a4990c57b2c4bf5a81,
         type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: barn1OLD
+      value: barn4
       objectReference: {fileID: 0}
     - target: {fileID: 3737874979218008239, guid: b43bf4ebc66ca8a4990c57b2c4bf5a81,
         type: 3}
