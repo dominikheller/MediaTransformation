@@ -13,23 +13,6 @@ MonoBehaviour:
   m_Name: New Prefab Palette 1
   m_EditorClassIdentifier: 
   prefabs:
-  - gameObject: {fileID: 1350152387528398, guid: c8b87b63bab77404d951cbaa39e740bd,
-      type: 3}
-    settings:
-      m_Strength: 50
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: EA04_Env_Tree_Root_01a_PRE
   - gameObject: {fileID: 1370194968668302, guid: c3c14281210af7e498caf061a2a10afe,
       type: 3}
     settings:
@@ -407,7 +390,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1400938507355842, guid: e6dfc33500f045d48a278519738f5d42,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 98.40324
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -424,7 +407,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1763083464843644, guid: f9a96b9a70de8214f9184755b87f1fd1,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 48.504044
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -475,7 +458,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1803532657506402, guid: 5827c056f5346d343a714a0d39cae834,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 100
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -492,7 +475,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1789207678412788, guid: 47555e4f5572b0d4c94e95b1b8d25596,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 96.407265
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -556,22 +539,6 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: Flat_Bone_02
-  - gameObject: {fileID: 175704, guid: fb9f189dcf5d2ad4aad003a8a44b136d, type: 3}
-    settings:
-      m_Strength: 48.004032
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: Mixed_Bone_02
   - gameObject: {fileID: 1350709370205172, guid: e813196d4af634c4abd9059ae3446f07,
       type: 3}
     settings:
