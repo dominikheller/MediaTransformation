@@ -54,12 +54,22 @@ public class TriggerEventCounter : MonoBehaviour
             if (triggerCount == maxTriggerCountValue)
             {
                 gameObject.GetComponent<AudioController>().startAudio();
+                StartCoroutine(delay(5));
 
-                //@todo fix animation
-                animator.SetTrigger("FadeOut");
                 triggerCount = 0;
             }
         }
+    }
+
+    
+    /**
+     * Delays function calls.
+     **/
+    IEnumerator delay(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().FadeToLevel("hub1");
     }
 
 
