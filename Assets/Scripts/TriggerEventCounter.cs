@@ -14,6 +14,11 @@ public class TriggerEventCounter : MonoBehaviour
     public Text Score;
 
     /**
+     * Canvas ui slider.
+     **/
+    public Slider slider;
+
+    /**
      * Current found clues.
      **/
     public int triggerCount = 0;
@@ -87,6 +92,7 @@ public class TriggerEventCounter : MonoBehaviour
      **/
     private void setScore()
     {
+        slider.value = triggerCount;
         Score.text = triggerCount.ToString() + "/" + maxTriggerCountValue.ToString();
     }
 
