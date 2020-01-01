@@ -26,7 +26,7 @@ public class TriggerEventCounter : MonoBehaviour
     /**
      * Maximum clue count.
      **/
-    public int maxTriggerCountValue = 6;
+    public int maxTriggerCountValue;
 
     /**
      * Clue list (is needed to check if the current raycasted clue was already triggered).
