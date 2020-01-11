@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9d181d5772666e546860ce1676b62dec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,16 +144,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6039230166692882544}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
-        type: 3}
-      propertyPath: m_Name
-      value: ZylinderMax
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -162,7 +152,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
         type: 3}
@@ -212,7 +202,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 19.2
+      value: 11.108672
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
         type: 3}
@@ -229,6 +219,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5225dba953ebb7c499c5ed3e1b66b060, type: 2}
+    - target: {fileID: -927199367670048503, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
+        type: 3}
+      propertyPath: m_Name
+      value: ZylinderMax
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc6a00ec7c5cd04ab7ea08e36556b3a, type: 3}
 --- !u!4 &4473617000066854257 stripped
