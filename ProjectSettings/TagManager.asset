@@ -5,9 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Teleport
-  - MapPin1
-  - MapPin2
-  - MapPin3
   layers:
   - Default
   - TransparentFX
