@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/__Scenes/barn1.unity
-    guid: fce3378a8dcb4f44aa786d935d5c1ca8
-  - enabled: 1
-    path: Assets/__Scenes/hub1.unity
+    path: Assets/__Scenes/live/hub1.unity
     guid: be3861b27d6cb41448697affa3f58c5d
   - enabled: 1
-    path: Assets/__Scenes/barn4.unity
-    guid: 9662a7c3ffaec13469367637d5160991
-  - enabled: 1
-    path: Assets/__Scenes/hub2.unity
+    path: Assets/__Scenes/live/hub2.unity
     guid: f34ca97841b86c64dbcdd2d2c716b3f4
   - enabled: 1
-    path: Assets/__Scenes/barn3.unity
+    path: Assets/__Scenes/live/barn1.unity
+    guid: fce3378a8dcb4f44aa786d935d5c1ca8
+  - enabled: 1
+    path: Assets/__Scenes/live/barn2.unity
     guid: 201e0322f6cae1b458bd86725858fc63
+  - enabled: 1
+    path: Assets/__Scenes/live/barn3.unity
+    guid: 9662a7c3ffaec13469367637d5160991
   - enabled: 0
     path: Assets/__Scenes/_Archiv bzw Museum/hub.unity
     guid: e90302e5ef944b24a8df87c9e16850d7
