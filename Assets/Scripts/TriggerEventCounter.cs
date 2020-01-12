@@ -74,7 +74,7 @@ public class TriggerEventCounter : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
 
-        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().FadeToLevel("hub1");
+        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().FadeToLevel("hub2");
     }
 
 
