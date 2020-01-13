@@ -44,12 +44,12 @@ public class QuotationController : MonoBehaviour
     {
         if (sceneName == "barn1")
         {
-            listOfQuotes[1] = "'Die einsame Scheune am Meer oder die Scheune mitten im Reisfeld … Es gibt alle möglichen Scheunen'";
-            listOfQuotes[2] = "'Natürlich wähle ich dabei die aus, bei denen kein großes Feuer entstehen kann.'";
-            listOfQuotes[3] = "'Auch die Polizei macht nicht viel Aufhebens davon, wenn eine dieser mickrigen Scheunen brennt.'";
-            listOfQuotes[4] = "'Sie hat keine Freunde, die sie um etwas bitten könnte.'";
-            listOfQuotes[5] = "'Ich kenne sie ganz gut, sie hat keinen einzigen Pfennig.'";
-            listOfQuotes[6] = "'Es ist eine richtig gute Scheune. Seit langem mal wieder eine, die sich abzubrennen lohnt.'";
+            listOfQuotes[1] = "'Die einsame, abgeschiedene Scheune im Wald'";
+            listOfQuotes[2] = "'Sie raucht wie ein Schlot.'";
+            listOfQuotes[3] = "'Überall liegen leere Bierdosen und Weinflaschen herum'";
+            listOfQuotes[4] = "'Sie ist verschlossen.'";
+            listOfQuotes[5] = "'Holz für eine weitere Scheune?'";
+            listOfQuotes[6] = "'Sie ist nah am Wasser gebaut.'";
         }
         if (sceneName == "barn3")
         {
