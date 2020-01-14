@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8967531025793487246}
   - component: {fileID: 8967531024893713486}
-  - component: {fileID: 8967531024893713489}
   - component: {fileID: 8967531024893713488}
   - component: {fileID: 8967531024893713491}
+  - component: {fileID: 5391512821756499240}
+  - component: {fileID: 6800497856740580389}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -80,14 +81,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &8967531024893713489
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8967531024893713490}
-  m_Enabled: 1
 --- !u!114 &8967531024893713488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +110,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 0}
+--- !u!81 &5391512821756499240
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8967531024893713490}
+  m_Enabled: 1
+--- !u!114 &6800497856740580389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8967531024893713490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113e4aa2cd3db44d1ac0cb7e9794964b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGainDb: 0
+  occlusionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  stereoSpeakerModeEnabled: 0
+  recorderSeamless: 0
+  recorderSourceTag: Untagged
+  recorderFoldout: 0
 --- !u!1 &8967531024989311645
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,7 +156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8967531024989311642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -516,7 +537,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967531026397563039}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &8967531026397563036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,7 +545,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967531026397563039}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 113e4aa2cd3db44d1ac0cb7e9794964b, type: 3}
   m_Name: 

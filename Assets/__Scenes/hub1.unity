@@ -9515,6 +9515,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3915271814115703000, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e15177dc1f96c84f8403327172d4a23, type: 3}
+    - target: {fileID: 6737643990687846610, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d181d5772666e546860ce1676b62dec, type: 2}
     - target: {fileID: 8967531024893713486, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_ClearFlags
@@ -9740,6 +9750,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listOfScenes: []
   listOfMapPins: []
+--- !u!82 &992976622 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3915271814115703000, guid: de03094f24271544bb090668907abcd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 992976619}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &996653029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15709,7 +15725,7 @@ Transform:
   m_LocalScale: {x: 0.06018426, y: 0.06018426, z: 0.06018426}
   m_Children: []
   m_Father: {fileID: 2025512263}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1615644520
 MonoBehaviour:
@@ -17824,6 +17840,17 @@ MonoBehaviour:
         - m_Target: {fileID: 1286964534}
           m_MethodName: SetActive
           m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 992976622}
+          m_MethodName: Play
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
