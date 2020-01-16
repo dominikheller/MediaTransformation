@@ -24,6 +24,11 @@ public class TriggerEventCounter : MonoBehaviour
     public int triggerCount = 0;
 
     /**
+    * Triggered clue index;
+    **/
+    public int clueIndex;
+
+    /**
      * Maximum clue count.
      **/
     public int maxTriggerCountValue;
@@ -128,5 +133,44 @@ public class TriggerEventCounter : MonoBehaviour
         }
 
         return false;
+    }
+
+    /**
+    * Gets clue tag by raycasting.
+    **/
+    public void getClueTagByRaycasting()
+    {
+        // raycast to screen center
+        Ray toCenter = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        RaycastHit rhInfo;
+        bool didHit = Physics.Raycast(toCenter, out rhInfo, 500.0f);
+
+        string colliderTag;
+        colliderTag = rhInfo.collider.transform.tag;
+        
+        if (didHit)
+        {
+            switch (colliderTag)
+            {
+                case "1":
+                    clueIndex = 1;
+                    break;
+                case "2":
+                    clueIndex = 2;
+                    break;
+                case "3":
+                    clueIndex = 3;
+                    break;
+                case "4":
+                    clueIndex = 4;
+                    break;
+                case "5":
+                    clueIndex = 5;
+                    break;
+                case "6":
+                    clueIndex = 6;
+                    break;
+            }
+        }
     }
 }

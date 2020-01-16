@@ -12,9 +12,9 @@ public class QuotationController : MonoBehaviour
     public Text Quote;
 
     /**
-     * Used as index in list of quotes.
+     * Clue index for list of quotes.
      **/
-    private int triggerCount;
+    private int clueIndex;
 
     /**
     * Current scene name.
@@ -34,7 +34,7 @@ public class QuotationController : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         sceneName = currentScene.name;
         initListOfQuotes();
-        triggerCount = gameObject.GetComponent<TriggerEventCounter>().triggerCount;
+        clueIndex = gameObject.GetComponent<TriggerEventCounter>().clueIndex;
     }
 
     /**
@@ -53,19 +53,19 @@ public class QuotationController : MonoBehaviour
         }
         if (sceneName == "barn3")
         {
-            listOfQuotes[1] = "'Todo: Insert suitable quote to QuotationController'";
-            listOfQuotes[2] = "'Todo: Insert suitable quote to QuotationController'";
-            listOfQuotes[3] = "'Todo: Insert suitable quote to QuotationController'";
-            listOfQuotes[4] = "'Todo: Insert suitable quote to QuotationController'";
+            listOfQuotes[1] = "'Todo: Insert suitable quote to QuotationController (1)'";
+            listOfQuotes[2] = "'Todo: Insert suitable quote to QuotationController (2)'";
+            listOfQuotes[3] = "'Todo: Insert suitable quote to QuotationController (3)'";
+            listOfQuotes[4] = "'Todo: Insert suitable quote to QuotationController (4)'";
         }
     }
 
 
     private void Update()
     {
-        if (triggerCount < gameObject.GetComponent<TriggerEventCounter>().triggerCount)
+        if (clueIndex != gameObject.GetComponent<TriggerEventCounter>().clueIndex)
         {
-            triggerCount = gameObject.GetComponent<TriggerEventCounter>().triggerCount;
+            clueIndex = gameObject.GetComponent<TriggerEventCounter>().clueIndex;
             initQuote();
         }
     }
@@ -76,7 +76,7 @@ public class QuotationController : MonoBehaviour
      **/
     public void initQuote()
     {
-        StartCoroutine(setQuote(listOfQuotes[triggerCount], 5));
+        StartCoroutine(setQuote(listOfQuotes[clueIndex], 5));
     }
 
     IEnumerator setQuote(string quote, float delay)
