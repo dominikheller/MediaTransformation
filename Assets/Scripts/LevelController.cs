@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
+    public List<GameObject> openFolders;
+
     public List<string> listOfScenes;
     public List<string> listOfMapPins;
 
@@ -64,7 +66,25 @@ public class LevelController : MonoBehaviour
         foreach (string mapPinTag in listOfMapPins)
         {
             GameObject mapPin = GameObject.FindWithTag(mapPinTag);
-            Destroy(mapPin);
+            if(mapPin != null)
+            {
+                Destroy(mapPin);
+                activateOpenFolder();
+            }
+        }
+    }
+
+    private void activateOpenFolder()
+    {
+        foreach (string mapPinTag in listOfMapPins)
+        {
+            foreach (GameObject openFolder in openFolders)
+            {
+                if(openFolder.tag == mapPinTag + "Open")
+                {
+                    openFolder.SetActive(true);
+                }
+            }
         }
     }
 
