@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/__Scenes/credits.unity
+    guid: 736957e1f1879d446b3a21064ff69d89
+  - enabled: 1
     path: Assets/__Scenes/hub1.unity
     guid: be3861b27d6cb41448697affa3f58c5d
+  - enabled: 1
+    path: Assets/__Scenes/barn3dh.unity
+    guid: 01d97a483de388c4cb97bb2e632679ee
   - enabled: 1
     path: Assets/__Scenes/barn1.unity
     guid: fce3378a8dcb4f44aa786d935d5c1ca8
