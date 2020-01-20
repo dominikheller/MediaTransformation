@@ -7,6 +7,8 @@ public class LevelController : MonoBehaviour
 {
     public List<GameObject> openFolders;
 
+    public string levelToFadeTo;
+
     public List<string> listOfScenes;
     public List<string> listOfMapPins;
 
@@ -16,13 +18,27 @@ public class LevelController : MonoBehaviour
     {
         listOfScenes = GlobalDataController.Instance.listOfScenes;
         listOfMapPins = GlobalDataController.Instance.listOfMapPins;
-
         currentSceneName = SceneManager.GetActiveScene().name;
 
         if (!listOfScenes.Contains(currentSceneName))
         {
             listOfScenes.Add(currentSceneName);
         }
+
+        if (listOfScenes.Contains("hub1"))
+        {
+            levelToFadeTo = "hub2";
+        }
+        if (listOfScenes.Contains("hub2"))
+        {
+            levelToFadeTo = "hub3";
+        }
+        if (listOfScenes.Contains("hub3"))
+        {
+            levelToFadeTo = "hub4";
+        }
+
+        Debug.Log(levelToFadeTo);
 
         saveListOfFinishedLevels();
         destroyTriggeredMapPins();

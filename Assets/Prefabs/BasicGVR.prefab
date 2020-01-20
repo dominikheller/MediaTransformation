@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 8265591071405403097}
   m_Layer: 0
   m_Name: BasicGVR
-  m_TagString: Untagged
+  m_TagString: BasicGVR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,6 +1256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openFolders: []
+  levelToFadeTo: 
   listOfScenes: []
   listOfMapPins: []
 --- !u!1 &8967531026321201755
@@ -1444,6 +1445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  levelToFadeTo: 
   Score: {fileID: 8684186665579702119}
   slider: {fileID: 4870599326506181290}
   triggerCount: 0

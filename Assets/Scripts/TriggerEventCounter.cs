@@ -77,9 +77,11 @@ public class TriggerEventCounter : MonoBehaviour
      **/
     IEnumerator delay(float time)
     {
+        GameObject globalData = GameObject.FindWithTag("BasicGVR");
+
         yield return new WaitForSeconds(time);
 
-        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().FadeToLevel("hub2");
+        GameObject.Find("LevelChanger").GetComponent<LevelChanger>().FadeToLevel(globalData.GetComponent<LevelController>().levelToFadeTo);
     }
 
 

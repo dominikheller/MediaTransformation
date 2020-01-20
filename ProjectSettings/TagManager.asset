@@ -17,6 +17,8 @@ TagManager:
   - MapPin1Open
   - MapPin2Open
   - MapPin3Open
+  - GlobalData
+  - BasicGVR
   layers:
   - Default
   - TransparentFX
