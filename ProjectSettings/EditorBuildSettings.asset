@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/__Scenes/barn4.unity
     guid: 9662a7c3ffaec13469367637d5160991
-  - enabled: 1
+  - enabled: 0
     path: Assets/__Scenes/_Archiv bzw Museum/barn3OLD.unity
     guid: 201e0322f6cae1b458bd86725858fc63
   - enabled: 0
