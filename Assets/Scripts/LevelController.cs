@@ -69,21 +69,6 @@ public class LevelController : MonoBehaviour
             if(mapPin != null)
             {
                 Destroy(mapPin);
-                activateOpenFolder();
-            }
-        }
-    }
-
-    private void activateOpenFolder()
-    {
-        foreach (string mapPinTag in listOfMapPins)
-        {
-            foreach (GameObject openFolder in openFolders)
-            {
-                if(openFolder.tag == mapPinTag + "Open")
-                {
-                    openFolder.SetActive(true);
-                }
             }
         }
     }
