@@ -7723,7 +7723,7 @@ MonoBehaviour:
             m_StringArgument: barn3
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 992976621}
+        - m_Target: {fileID: 0}
           m_MethodName: addMapPinToList
           m_Mode: 1
           m_Arguments:
@@ -9974,6 +9974,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 9e15177dc1f96c84f8403327172d4a23, type: 3}
+    - target: {fileID: 6565317873581237203, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6737643990687846610, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10200,21 +10205,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 992976619}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &992976621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992976620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b717218745ad23d469984059bda144e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openFolders: []
-  listOfScenes: []
-  listOfMapPins: []
 --- !u!82 &992976622 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 3915271814115703000, guid: de03094f24271544bb090668907abcd2,
@@ -13224,7 +13214,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 992976621}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5aaa63e5cfc88ee4cbd96705368b1b7c, type: 3}
 --- !u!4 &1223966260 stripped
@@ -21389,7 +21379,7 @@ MonoBehaviour:
             m_StringArgument: barn4
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 992976621}
+        - m_Target: {fileID: 0}
           m_MethodName: addMapPinToList
           m_Mode: 1
           m_Arguments:
