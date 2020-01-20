@@ -1442,8 +1442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  Score: {fileID: 0}
-  slider: {fileID: 0}
+  Score: {fileID: 8684186665579702119}
+  slider: {fileID: 4870599326506181290}
   triggerCount: 0
   clueIndex: 0
   maxTriggerCountValue: 0
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abfdf1ce486ed94478fb830e9ab1ba27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Quote: {fileID: 0}
+  Quote: {fileID: 3756589137133428026}
 --- !u!1 &8967531026591340540
 GameObject:
   m_ObjectHideFlags: 0
