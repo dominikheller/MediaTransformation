@@ -9874,6 +9874,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3346992309974183343, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3915271814115703000, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_audioClip
@@ -9882,7 +9887,7 @@ PrefabInstance:
     - target: {fileID: 6565317873581237203, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6737643990687846610, guid: de03094f24271544bb090668907abcd2,
         type: 3}
