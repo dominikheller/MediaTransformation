@@ -278,8 +278,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 414382770}
-          m_MethodName: set_enabled
-          m_Mode: 6
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -293,8 +293,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 414382770}
-          m_MethodName: set_enabled
-          m_Mode: 6
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2961,7 +2961,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414382767}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -6815,7 +6815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &826104001
 Transform:
   m_ObjectHideFlags: 0
@@ -7653,12 +7653,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.858
+      value: 17.003658
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.478
+      value: 4.9130063
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
@@ -7668,7 +7668,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
@@ -7678,12 +7678,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.4421658
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8969333
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
@@ -7703,7 +7703,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -52.484
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 00d55c222ae8be947a8febdca7a1d6ff,
         type: 3}
@@ -18070,14 +18070,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1507065204}
   - component: {fileID: 1507065206}
-  - component: {fileID: 1507065205}
   m_Layer: 0
   m_Name: Pallets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1507065204
 Transform:
   m_ObjectHideFlags: 0
@@ -18102,64 +18101,6 @@ Transform:
   m_Father: {fileID: 1298047163}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1507065205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507065203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1507065206}
-          m_MethodName: set_enabled
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1507065206}
-          m_MethodName: set_enabled
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: onPointerClick
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &1507065206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22359,17 +22300,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7c244130df7715249b1a24d13b5d977c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.501
+      value: 19.104
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c244130df7715249b1a24d13b5d977c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.9327
+      value: 15.047
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c244130df7715249b1a24d13b5d977c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.0975
+      value: -50.151
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c244130df7715249b1a24d13b5d977c,
         type: 3}
@@ -25074,7 +25015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1934337342
 MonoBehaviour:
   m_ObjectHideFlags: 0
