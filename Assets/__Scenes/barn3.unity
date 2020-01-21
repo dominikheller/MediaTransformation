@@ -729,8 +729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 6.36
+  outlineColor: {r: 0.7294118, g: 0.7294118, b: 0.7294118, a: 1}
+  outlineWidth: 7
   precomputeOutline: 1
   bakeKeys:
   - {fileID: -2432090755550338912, guid: 00d55c222ae8be947a8febdca7a1d6ff, type: 3}
@@ -4684,7 +4684,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 158472292}
+        - m_Target: {fileID: 519483839}
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -4938,7 +4938,7 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 1
+            m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 504809176}
           m_MethodName: SetActive
@@ -11516,8 +11516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 3
+  outlineColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+  outlineWidth: 10
   precomputeOutline: 1
   bakeKeys:
   - {fileID: 8210153351578933381, guid: 69db153f270d7b74eaefcdc268212ea4, type: 3}
@@ -12588,8 +12588,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 5.88
+  outlineColor: {r: 0.7294118, g: 0.7294118, b: 0.7294118, a: 1}
+  outlineWidth: 10
   precomputeOutline: 1
   bakeKeys:
   - {fileID: 7110075451906348945, guid: 54004b7eb8549b1429e9afce86f81e3b, type: 3}
@@ -18584,8 +18584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 3
+  outlineColor: {r: 0.48235294, g: 0.48235294, b: 0.48235294, a: 1}
+  outlineWidth: 7
   precomputeOutline: 1
   bakeKeys:
   - {fileID: 6661468884136494727, guid: c71a6d335c6022044a1bfab890633295, type: 3}
@@ -41989,7 +41989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214426374145737588}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.006, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5006512736863369673}
