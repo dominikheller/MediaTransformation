@@ -58,6 +58,10 @@ public class QuotationController : MonoBehaviour
             listOfQuotes[3] = "'Todo: Schlüssel-Zitat'";
             listOfQuotes[4] = "'Todo: Krebs-Zitat'";
         }
+        if (sceneName == "barn4")
+        {
+            listOfQuotes[1] = "'Todo: Dummy-Zitat'";
+        }
     }
 
 
