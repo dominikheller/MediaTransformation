@@ -38,8 +38,6 @@ public class LevelController : MonoBehaviour
             levelToFadeTo = "hub4";
         }
 
-        Debug.Log(levelToFadeTo);
-
         saveListOfFinishedLevels();
         destroyTriggeredMapPins();
     }

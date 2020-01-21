@@ -53,10 +53,10 @@ public class QuotationController : MonoBehaviour
         }
         if (sceneName == "barn3")
         {
-            listOfQuotes[1] = "'Todo: Insert suitable quote to QuotationController (1)'";
-            listOfQuotes[2] = "'Todo: Insert suitable quote to QuotationController (2)'";
-            listOfQuotes[3] = "'Todo: Insert suitable quote to QuotationController (3)'";
-            listOfQuotes[4] = "'Todo: Insert suitable quote to QuotationController (4)'";
+            listOfQuotes[1] = "'Todo: Axt-Zitat'";
+            listOfQuotes[2] = "'Todo: Vogelscheuche-Zitat'";
+            listOfQuotes[3] = "'Todo: Schlüssel-Zitat'";
+            listOfQuotes[4] = "'Todo: Krebs-Zitat'";
         }
     }
 

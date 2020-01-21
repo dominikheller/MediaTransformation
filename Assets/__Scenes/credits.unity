@@ -4017,6 +4017,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 9e15177dc1f96c84f8403327172d4a23, type: 3}
+    - target: {fileID: 6565317873581237203, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6737643990687846610, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4250,6 +4255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b717218745ad23d469984059bda144e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openFolders: []
+  levelToFadeTo: 
   listOfScenes: []
   listOfMapPins: []
 --- !u!1 &1022877579
