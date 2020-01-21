@@ -2526,7 +2526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400109842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.405, y: 2.0033, z: 16.571}
+  m_LocalPosition: {x: 16.427, y: 1.545, z: 17.578}
   m_LocalScale: {x: 0.34346732, y: 0.34346732, z: 0.34346732}
   m_Children:
   - {fileID: 414382768}
@@ -4365,7 +4365,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8a8828801387e76479b6fc9b09fd7986, type: 2}
+      objectReference: {fileID: 2100000, guid: eaacd69e0e2ba6d4281620220751130d, type: 2}
     - target: {fileID: -927199367670048503, guid: f8cd2e10bf9895a4ca4dccc819ea82ec,
         type: 3}
       propertyPath: m_Name
@@ -17757,6 +17757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nuke
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 74fc0fe82c281304b90a37aecd51b27a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74fc0fe82c281304b90a37aecd51b27a, type: 3}
