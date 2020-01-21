@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/__Scenes/_Archiv bzw Museum/barn1OLD.unity
     guid: fb4f210005c7acd49a55ec6e8ab8909c
+  - enabled: 1
+    path: Assets/__Scenes/hub3.unity
+    guid: 134adf17562b4144e8153c04e578a5a9
+  - enabled: 1
+    path: Assets/__Scenes/hub4.unity
+    guid: 747eeaee779af254b9e9428f25057b33
+  - enabled: 1
+    path: Assets/__Scenes/hub5.unity
+    guid: ea169ef3e03e5c84a8a921df1ab62181
   m_configObjects: {}
