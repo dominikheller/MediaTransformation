@@ -57,7 +57,7 @@ LightmapSettings:
     serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 32
+    m_AtlasSize: 512
     m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -74,10 +74,10 @@ LightmapSettings:
     m_MixedBakeMode: 2
     m_BakeBackend: 2
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 64
-    m_PVRSampleCount: 1032
-    m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 512
+    m_PVRDirectSampleCount: 256
+    m_PVRSampleCount: 4128
+    m_PVRBounces: 4
+    m_PVREnvironmentSampleCount: 2048
     m_PVREnvironmentReferencePointCount: 2048
     m_PVRFilteringMode: 1
     m_PVRDenoiserTypeDirect: 1
@@ -56335,9 +56335,9 @@ Transform:
   m_LocalPosition: {x: 0.099301405, y: -2.9664526, z: 1.601949}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1409641481154714958}
   - {fileID: 484130748}
   - {fileID: 1585925545}
-  - {fileID: 1409641481154714958}
   - {fileID: 600671478}
   m_Father: {fileID: 5006512735569380792}
   m_RootOrder: 184
@@ -72917,7 +72917,7 @@ Transform:
   m_LocalScale: {x: 0.26486468, y: 0.02025446, z: 0.18709134}
   m_Children: []
   m_Father: {fileID: 1806414706}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1409641481155002734
 GameObject:
