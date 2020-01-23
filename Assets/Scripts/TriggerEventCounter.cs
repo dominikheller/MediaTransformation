@@ -63,7 +63,8 @@ public class TriggerEventCounter : MonoBehaviour
 
             if (triggerCount == maxTriggerCountValue)
             {
-                gameObject.GetComponent<AudioController>().startAudio();
+                GameObject staticAudioSource = GameObject.FindWithTag("StaticAudioSource");
+                staticAudioSource.GetComponent<AudioController>().startAudio();
                 StartCoroutine(delay(5));
 
                 triggerCount = 0;
