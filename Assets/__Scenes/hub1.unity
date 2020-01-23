@@ -1757,22 +1757,22 @@ PrefabInstance:
     - target: {fileID: 4724191650230693953, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.5559607
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4724191650230693953, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.77
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 4724191650230693953, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.64
+      value: -20.08
       objectReference: {fileID: 0}
     - target: {fileID: 4724191650230693953, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 249.8
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 4724191650384109793, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
@@ -1962,7 +1962,7 @@ PrefabInstance:
     - target: {fileID: 4724191651300682969, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.361879
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4724191651300682969, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
@@ -1972,7 +1972,7 @@ PrefabInstance:
     - target: {fileID: 4724191651300682969, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.42
+      value: -20.03
       objectReference: {fileID: 0}
     - target: {fileID: 4724191651300682969, guid: f4a874cc6e018cc4581eb7258ba50406,
         type: 3}
@@ -10131,12 +10131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b717218745ad23d469984059bda144e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &992976622 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3915271814115703000, guid: de03094f24271544bb090668907abcd2,
-    type: 3}
-  m_PrefabInstance: {fileID: 992976619}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &996653029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18866,7 +18860,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 992976622}
+        - m_Target: {fileID: 0}
           m_MethodName: Play
           m_Mode: 1
           m_Arguments:
