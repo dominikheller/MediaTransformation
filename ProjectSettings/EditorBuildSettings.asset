@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/__Scenes/hub1.unity
     guid: be3861b27d6cb41448697affa3f58c5d
   - enabled: 1
+    path: Assets/__Scenes/pressplay.unity
+    guid: 3a1793b12257220459ce4642187768c8
+  - enabled: 1
     path: Assets/__Scenes/hub2.unity
     guid: f34ca97841b86c64dbcdd2d2c716b3f4
   - enabled: 1
