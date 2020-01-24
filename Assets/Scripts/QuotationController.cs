@@ -55,8 +55,8 @@ public class QuotationController : MonoBehaviour
         {
             listOfQuotes[1] = "'Der Pfosten ist angeschlagen.'";
             listOfQuotes[2] = "'Eine ausgesprochen hässliche Erscheinung.'";
-            listOfQuotes[3] = "'Todo: Schlüssel-Zitat'";
-            listOfQuotes[4] = "'Todo: Krebs-Zitat'";
+            listOfQuotes[3] = "'Der Schlüssel zu einem Geheimnis?'";
+            listOfQuotes[4] = "'Ein Fremdkörper?'";
         }
         if (sceneName == "barn4")
         {
