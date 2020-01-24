@@ -5930,7 +5930,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449546725}
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071069}
-  m_LocalPosition: {x: 0, y: 0, z: 0.13}
+  m_LocalPosition: {x: 0, y: 0, z: -0.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1031205713}
@@ -5959,7 +5959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(basierend auf der Kurzgeschichte \n\"Barn Burning\" von Haruki Murakami)"
+  m_text: "(basierend auf der Kurzgeschichte \n\"Scheunenabbrennen\" von Haruki Murakami)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -6025,13 +6025,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -1.3956649, w: 0}
   m_textInfo:
     textComponent: {fileID: 449546727}
-    characterCount: 70
+    characterCount: 75
     spriteCount: 0
-    spaceCount: 9
-    wordCount: 9
+    spaceCount: 8
+    wordCount: 8
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -6402,11 +6402,11 @@ MonoBehaviour:
   m_text: "Dominik Heller\n\r\n\n\n\n\n\n\r\nDominik Heller\nMoritz Meid\n\r\n\n\n\n\r\nMalte
     Brauer\n\r\n\n\n\n\n\nMoritz Meid\r\n\r\nGoogle Poly\n\r\n\r\n\r\nDominik Heller\r\n\n\r\nDominik
     Heller\n\n\n\n\r\nMoritz Meid\n\r\n\nMoritz Meid\n\n\r\nMoritz Meid\n\n\r\n\nStephan
-    Busch\r\n\r\n\nDaniel Hecktor\r\n\n\r\nStephan Busch\r\n\r\n\n\nDominik Heller\r\n\r\n\n\n\n\r\nMalte
+    Busch\r\n\r\n\nDaniel Hecktor\r\n\n\n\r\nStephan Busch\r\n\r\n\n\nDominik Heller\r\n\r\n\n\n\n\r\nMalte
     Brauer\r\n\r\n\nMalte Brauer\n\n\r\nMalte Brauer\n\n\n\n\r\nDominik Heller\n\r\n\r\n\n\n\n\n\r\n\n\r\n\r\nDominik
-    Heller\n\r\nDominik Heller\r\n\r\nMoritz Meid\nDominik Heller\r\n\r\nMoritz Meid\n\r\nDominik
-    Heller\nMalte Brauer\r\n\r\n\n\r\n\r\nDominik Heller\r\n\r\nMoritz Meid\n\r\n\r\n\r\n\n\n\nBrackeys\nXlaugts\n\r\nMartin
-    Winterlich"
+    Heller\n\r\nDominik Heller\r\nMoritz Meid\n\r\nMoritz Meid\n\r\nMoritz Meid\nMalte
+    Brauer\n\r\nDominik Heller\nMalte Brauer\r\n\r\n\n\r\n\r\nDominik Heller\r\n\r\nMoritz
+    Meid\n\r\n\r\n\r\n\n\n\nBrackeys\nXlaugts\n\r\nMartin Winterlich"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
@@ -6475,12 +6475,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -14.305739, w: -135.68803}
   m_textInfo:
     textComponent: {fileID: 808126059}
-    characterCount: 546
+    characterCount: 556
     spriteCount: 0
-    spaceCount: 140
-    wordCount: 60
+    spaceCount: 143
+    wordCount: 62
     linkCount: 0
-    lineCount: 112
+    lineCount: 114
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -8551,10 +8551,10 @@ MonoBehaviour:
   m_text: "Game Director:\r\n\r\n\n\n\n\n\n\r\nGame Concept:\r\n\r\n\n\n\n\n\r\nProgramming:\r\n\r\n\n\n\n\n\n3D
     Modeling:\r\n\r\nAdditional 3D Models:\r\n\r\n\r\n\r\nLighting:\r\n\n\r\nVisiual
     Effects:\r\n\n\n\n\r\nSound Design:\r\n\r\n\nSound Editing:\r\n\n\r\nVoice Over
-    Director:\r\n\n\r\n\nNews Voice:\r\n\r\n\nMain Character Voice:\r\n\n\r\nAdditional
+    Director:\r\n\n\r\n\nNews Voice:\r\n\r\n\nMain Character Voice:\r\n\n\n\r\nAdditional
     Audio Consulting:\r\n\r\n\n\nSpatial Audio:\r\n\r\n\n\n\n\r\nLevel Structure Logic:\r\n\r\n\nClue
     Collection Logic:\r\n\n\r\nUI Design:\n\n\n\n\r\n\rAnimation:\r\n\r\n\r\n\n\n\n\n\r\n\n\r\n\r\nHub
-    1 (Tutorial):\r\n\r\nHub 2-4:\r\n\r\nDesert Barn:\r\n\n\r\nIndoor Barn:\r\n\r\nMountain
+    1 (Tutorial):\r\n\r\nHub 2-4:\r\n\r\n\nDesert Barn:\r\n\r\nIndoor Barn:\r\n\r\n\nMountain
     Barn:\r\n\n\r\n\n\r\n\r\nGear VR Port:\r\n\r\nOculus Rift Port:\r\n\r\n\r\n\r\n\n\n\n\rGreat
     Unity Tutorials on YouTube:\r\n\r\n\nMissing in Action:\r"
   m_isRightToLeft: 0
@@ -8625,12 +8625,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -14.305739, w: -135.68803}
   m_textInfo:
     textComponent: {fileID: 2099527855}
-    characterCount: 604
+    characterCount: 606
     spriteCount: 0
-    spaceCount: 148
+    spaceCount: 150
     wordCount: 64
     linkCount: 0
-    lineCount: 112
+    lineCount: 114
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
