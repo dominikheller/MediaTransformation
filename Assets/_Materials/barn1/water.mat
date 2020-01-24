@@ -9,12 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: water
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -124,16 +125,16 @@ Material:
     - _DetailNormalMapScale: 1
     - _DistanceInMeters: 2
     - _DistortionPower: 4
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _FresnelScale: 0.15
     - _GerstnerIntensity: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _InnerDiameter: 1.5
     - _MaxTreshold: 0.504
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _OuterDiameter: 2
     - _Parallax: 0.02
@@ -159,7 +160,7 @@ Material:
     - _WavesDensity: 10
     - _WindQuality: 0
     - _WireThickness: 100
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
     - _AnimationDirection: {r: 1, g: 1, b: 1, a: 1}
@@ -167,7 +168,7 @@ Material:
     - _BaseColor: {r: 0.53999996, g: 0.95, b: 0.98999995, a: 0.5}
     - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
     - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
-    - _Color: {r: 0.03564434, g: 0.5188865, b: 0.8396226, a: 1}
+    - _Color: {r: 0.03564434, g: 0.5188865, b: 0.8396226, a: 0.4627451}
     - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Foam: {r: 0.1, g: 0.375, b: 0, a: 0}
