@@ -9757,6 +9757,18 @@ PrefabInstance:
     - {fileID: 8967531026397563036, guid: de03094f24271544bb090668907abcd2, type: 3}
     - {fileID: 8967531026397563037, guid: de03094f24271544bb090668907abcd2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de03094f24271544bb090668907abcd2, type: 3}
+--- !u!114 &992976620 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8265591071405403097, guid: de03094f24271544bb090668907abcd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 992976619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b717218745ad23d469984059bda144e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &996653029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26147,7 +26159,7 @@ GameObject:
   - component: {fileID: 4174065233671509708}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: MapPin2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26258,7 +26270,7 @@ MonoBehaviour:
             m_StringArgument: barn3
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 992976620}
           m_MethodName: addMapPinToList
           m_Mode: 1
           m_Arguments:
@@ -28070,7 +28082,7 @@ MonoBehaviour:
             m_StringArgument: barn1
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 992976620}
           m_MethodName: addMapPinToList
           m_Mode: 1
           m_Arguments:
@@ -28736,7 +28748,7 @@ GameObject:
   - component: {fileID: 4174065235238744296}
   m_Layer: 0
   m_Name: Ordner (2)
-  m_TagString: Untagged
+  m_TagString: MapPin3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29276,7 +29288,7 @@ GameObject:
   - component: {fileID: 4174065235254102950}
   m_Layer: 0
   m_Name: Ordner
-  m_TagString: Untagged
+  m_TagString: MapPin1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29884,7 +29896,7 @@ MonoBehaviour:
             m_StringArgument: barn4
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 992976620}
           m_MethodName: addMapPinToList
           m_Mode: 1
           m_Arguments:
