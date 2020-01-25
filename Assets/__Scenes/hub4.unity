@@ -13514,6 +13514,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307740803}
   m_Mesh: {fileID: 6247263856708829971, guid: a94793717c82d0548b9a86395e6d1bda, type: 3}
+--- !u!114 &314001032 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7410184266152540014, guid: de03094f24271544bb090668907abcd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 264248235}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc10072d70c3dd41ae78a5c50d17a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &318784313
 GameObject:
   m_ObjectHideFlags: 0
@@ -35297,7 +35309,7 @@ Transform:
   m_GameObject: {fileID: 787859231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.51, y: 0.922, z: -2.33}
-  m_LocalScale: {x: 6.55, y: 1, z: 5.1257}
+  m_LocalScale: {x: 4.027512, y: 1, z: 2.0978146}
   m_Children: []
   m_Father: {fileID: 318784314}
   m_RootOrder: 2
@@ -35347,17 +35359,6 @@ MonoBehaviour:
           m_CallState: 2
         - m_Target: {fileID: 2047530673}
           m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 416732214}
-          m_MethodName: TeleportPlayer
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -63227,7 +63228,7 @@ Transform:
   m_GameObject: {fileID: 1555745171}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.51, y: 0.922, z: -2.33}
-  m_LocalScale: {x: 6.55, y: 1, z: 5.1257}
+  m_LocalScale: {x: 3.6569614, y: 1, z: 2.1147037}
   m_Children: []
   m_Father: {fileID: 2077738477}
   m_RootOrder: 2
@@ -63277,17 +63278,6 @@ MonoBehaviour:
           m_CallState: 2
         - m_Target: {fileID: 2047530673}
           m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 461217943}
-          m_MethodName: TeleportPlayer
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -64823,7 +64813,7 @@ Transform:
   m_GameObject: {fileID: 1574117575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.51, y: 0.922, z: -2.33}
-  m_LocalScale: {x: 6.55, y: 1, z: 5.1257}
+  m_LocalScale: {x: 3.5673654, y: 1, z: 2.113666}
   m_Children: []
   m_Father: {fileID: 1578646591}
   m_RootOrder: 2
@@ -64845,9 +64835,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: ChangeSceneInstantly
-          m_Mode: 5
+        - m_Target: {fileID: 314001032}
+          m_MethodName: FadeToLevel
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -64873,17 +64863,6 @@ MonoBehaviour:
           m_CallState: 2
         - m_Target: {fileID: 2047530673}
           m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 690836390}
-          m_MethodName: TeleportPlayer
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
