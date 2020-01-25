@@ -546,7 +546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.269999, y: -137.2}
+  m_AnchoredPosition: {x: -7.269999, y: -143.5}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166060482
@@ -6681,10 +6681,11 @@ MonoBehaviour:
     Brauer\n\r\n\n\n\n\n\nMoritz Meid\r\n\r\nGoogle Poly\n\r\n\r\n\r\nDominik Heller\r\n\n\r\nDominik
     Heller\n\n\n\n\r\nMoritz Meid\n\r\n\nMoritz Meid\n\n\r\nMoritz Meid\n\n\r\n\nStephan
     Busch\r\n\r\n\nDaniel Hecktor\r\n\n\n\r\nStephan Busch\r\n\r\n\n\nDominik Heller\r\n\r\n\n\n\n\r\nMalte
-    Brauer\r\n\r\n\nMalte Brauer\n\n\r\nMalte Brauer\n\n\n\n\r\nDominik Heller\n\r\n\r\n\n\n\n\n\r\n\n\r\n\r\nDominik
-    Heller\n\r\nDominik Heller\r\nMoritz Meid\n\r\nMoritz Meid\n\r\nMoritz Meid\nMalte
-    Brauer\n\r\nDominik Heller\nMalte Brauer\r\n\r\n\n\r\n\r\nDominik Heller\r\n\r\nMoritz
-    Meid\n\r\n\r\n\r\n\n\n\nBrackeys\nXlaugts\n\r\nMartin Winterlich"
+    Brauer\r\n\r\n\nMalte Brauer\n\n\r\nMartin Winterlich\n\n\nMoritz Meid\nDominik
+    Heller\n\n\n\n\r\nDominik Heller\n\r\n\r\n\n\n\n\n\r\n\n\r\n\r\nDominik Heller\n\r\nDominik
+    Heller\r\nMoritz Meid\n\r\nMoritz Meid\nDominik Heller\n\r\nMoritz Meid\nMalte
+    Brauer\n\r\nDominik Heller\nMoritz Meid\nMalte Brauer\r\n\r\n\n\r\n\r\nDominik
+    Heller\r\n\r\nMoritz Meid\n\r\n\r\n\r\n\n\n\nBrackeys\nXlaugts\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
@@ -6753,12 +6754,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -14.305739, w: -135.68803}
   m_textInfo:
     textComponent: {fileID: 808126059}
-    characterCount: 556
+    characterCount: 598
     spriteCount: 0
-    spaceCount: 143
-    wordCount: 62
+    spaceCount: 151
+    wordCount: 68
     linkCount: 0
-    lineCount: 114
+    lineCount: 118
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -6866,7 +6867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.050319, y: -143}
+  m_AnchoredPosition: {x: -5.050319, y: -146.46}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &891039075
@@ -7152,7 +7153,7 @@ PrefabInstance:
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9573557
+      value: -0.28891173
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
@@ -7162,27 +7163,27 @@ PrefabInstance:
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.28891215
+      value: 0.9573558
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000019073486
+      value: 0.000005171923
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.000002861023
+      value: -0.0000031033849
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 146.414
+      value: -33.586002
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025793487246, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.057
+      value: 0.05699992
       objectReference: {fileID: 0}
     - target: {fileID: 8967531025892355118, guid: de03094f24271544bb090668907abcd2,
         type: 3}
@@ -9052,10 +9053,10 @@ MonoBehaviour:
     Effects:\r\n\n\n\n\r\nSound Design:\r\n\r\n\nSound Editing:\r\n\n\r\nVoice Over
     Director:\r\n\n\r\n\nNews Voice:\r\n\r\n\nMain Character Voice:\r\n\n\n\r\nAdditional
     Audio Consulting:\r\n\r\n\n\nSpatial Audio:\r\n\r\n\n\n\n\r\nLevel Structure Logic:\r\n\r\n\nClue
-    Collection Logic:\r\n\n\r\nUI Design:\n\n\n\n\r\n\rAnimation:\r\n\r\n\r\n\n\n\n\n\r\n\n\r\n\r\nHub
-    1 (Tutorial):\r\n\r\nHub 2-4:\r\n\r\n\nDesert Barn:\r\n\r\nIndoor Barn:\r\n\r\n\nMountain
-    Barn:\r\n\n\r\n\n\r\n\r\nGear VR Port:\r\n\r\nOculus Rift Port:\r\n\r\n\r\n\r\n\n\n\n\rGreat
-    Unity Tutorials on YouTube:\r\n\r\n\nMissing in Action:\r"
+    Collection Logic:\r\n\n\r\nMissing in Action:\r\n\n\nUI Design:\n\n\n\n\n\r\n\rAnimation:\r\n\r\n\r\n\n\n\n\n\r\n\n\r\n\r\nHub
+    1 (Tutorial):\r\n\r\nHub 2-4:\r\n\r\n\nDesert Barn:\r\n\n\r\nIndoor Barn:\r\n\r\n\nMountain
+    Barn:\r\n\n\n\r\n\n\r\n\r\nGear VR Port:\r\n\r\nOculus Rift Port:\r\n\r\n\r\n\r\n\n\n\n\rGreat
+    Unity Tutorials on YouTube:\r\n\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
@@ -9124,12 +9125,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -14.305739, w: -135.68803}
   m_textInfo:
     textComponent: {fileID: 2099527855}
-    characterCount: 606
+    characterCount: 612
     spriteCount: 0
-    spaceCount: 150
+    spaceCount: 156
     wordCount: 64
     linkCount: 0
-    lineCount: 114
+    lineCount: 119
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
