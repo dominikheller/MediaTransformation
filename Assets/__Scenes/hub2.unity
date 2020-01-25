@@ -55093,6 +55093,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Folders 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8032951351140206032, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 264248239}
+    - target: {fileID: 8032951351140206032, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: addMapPinToList
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032951351140206046, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_TagString
+      value: MapPin2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032951351665502932, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032951352183797699, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 264248239}
+    - target: {fileID: 8032951352183797699, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: addMapPinToList
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032951353107942541, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 264248239}
+    - target: {fileID: 8032951353107942541, guid: 401e44e73235a7d4c87800cb9426d816,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: addMapPinToList
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 401e44e73235a7d4c87800cb9426d816, type: 3}
 --- !u!1 &1836261483

@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 2782085918398115583}
   m_Layer: 0
   m_Name: Ordner
-  m_TagString: MapPin1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 2782085918923456902}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: MapPin2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
