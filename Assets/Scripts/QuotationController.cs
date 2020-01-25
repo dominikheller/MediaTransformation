@@ -53,14 +53,16 @@ public class QuotationController : MonoBehaviour
         }
         if (sceneName == "barn3")
         {
-            listOfQuotes[1] = "'Todo: Axt-Zitat'";
-            listOfQuotes[2] = "'Todo: Vogelscheuche-Zitat'";
-            listOfQuotes[3] = "'Todo: Schlüssel-Zitat'";
-            listOfQuotes[4] = "'Todo: Krebs-Zitat'";
+            listOfQuotes[1] = "'Der Pfosten ist angeschlagen.'";
+            listOfQuotes[2] = "'Eine ausgesprochen hässliche Erscheinung.'";
+            listOfQuotes[3] = "'Der Schlüssel zu einem Geheimnis?'";
+            listOfQuotes[4] = "'Ein Fremdkörper?'";
         }
         if (sceneName == "barn4")
         {
-            listOfQuotes[1] = "'Todo: Dummy-Zitat'";
+            listOfQuotes[1] = "'Ein Boot in der Wüste?'";
+            listOfQuotes[2] = "'Die Scheune hat einen Dachschaden.'";
+            listOfQuotes[3] = "'Ein meschlicher Schädel im Sand.'";
         }
     }
 
