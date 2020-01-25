@@ -10887,7 +10887,7 @@ GameObject:
   - component: {fileID: 1085434748}
   - component: {fileID: 1085434747}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Faden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10961,7 +10961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085434746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.534304, y: 18.69635, z: -50.08993}
+  m_LocalPosition: {x: 19.1, y: 18.29, z: -50.08993}
   m_LocalScale: {x: 0.00024999998, y: 4.0999994, z: 0.00024999998}
   m_Children: []
   m_Father: {fileID: 557211688}
