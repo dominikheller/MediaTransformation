@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class FadeLevel : MonoBehaviour
 {
     public Animator animator;
-    public Animator animatorShort;
 
     public float fadeTime;
     public string levelToFadeTo;
