@@ -27484,7 +27484,7 @@ GameObject:
   - component: {fileID: 4174065234219940277}
   m_Layer: 0
   m_Name: Ordner (1)
-  m_TagString: MapPin2
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29160,7 +29160,7 @@ GameObject:
   - component: {fileID: 4174065235238744296}
   m_Layer: 0
   m_Name: Ordner (2)
-  m_TagString: MapPin3
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29700,7 +29700,7 @@ GameObject:
   - component: {fileID: 4174065235254102950}
   m_Layer: 0
   m_Name: Ordner
-  m_TagString: MapPin1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
