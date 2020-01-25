@@ -72,7 +72,7 @@ public class QuotationController : MonoBehaviour
         if (clueIndex != gameObject.GetComponent<TriggerEventCounter>().clueIndex)
         {
             clueIndex = gameObject.GetComponent<TriggerEventCounter>().clueIndex;
-            initQuote();
+            //initQuote();
         }
     }
 

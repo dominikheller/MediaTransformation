@@ -103,7 +103,7 @@ public class TriggerEventCounter : MonoBehaviour
     private void setScore()
     {
         slider.value = triggerCount;
-        Score.text = triggerCount.ToString() + "/" + maxTriggerCountValue.ToString();
+        Score.text = triggerCount.ToString() + "   /   " + maxTriggerCountValue.ToString();
     }
 
 
