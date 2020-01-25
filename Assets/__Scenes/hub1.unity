@@ -777,7 +777,7 @@ Transform:
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 2025512263}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &33394614
 SphereCollider:
@@ -15917,7 +15917,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1615644519
 Transform:
   m_ObjectHideFlags: 0
@@ -15930,7 +15930,7 @@ Transform:
   m_LocalScale: {x: 0.06018426, y: 0.06018426, z: 0.06018426}
   m_Children: []
   m_Father: {fileID: 2025512263}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1615644520
 MonoBehaviour:
