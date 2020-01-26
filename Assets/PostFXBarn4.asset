@@ -313,7 +313,7 @@ MonoBehaviour:
   grain:
     m_Enabled: 1
     m_Settings:
-      colored: 1
+      colored: 0
       intensity: 1
       size: 0.4
       luminanceContribution: 1
