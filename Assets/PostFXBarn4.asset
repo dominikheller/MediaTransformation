@@ -315,10 +315,10 @@ MonoBehaviour:
     m_Settings:
       colored: 0
       intensity: 1
-      size: 0.4
+      size: 0.5
       luminanceContribution: 1
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
