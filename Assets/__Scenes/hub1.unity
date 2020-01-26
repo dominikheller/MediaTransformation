@@ -9512,6 +9512,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 475064444531377939, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: profile
+      value: 
+      objectReference: {fileID: 11400000, guid: 00b01662191a24a43ae27b8713de7411,
+        type: 2}
     - target: {fileID: 844868663258597146, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_RootOrder
@@ -9520,6 +9526,21 @@ PrefabInstance:
     - target: {fileID: 1898937566427009678, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3346992309974183343, guid: de03094f24271544bb090668907abcd2,

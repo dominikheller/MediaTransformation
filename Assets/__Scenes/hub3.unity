@@ -5038,6 +5038,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 475064444531377939, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: profile
+      value: 
+      objectReference: {fileID: 11400000, guid: 1a0a1d8b6774daa4ebb5110e6e6e626e,
+        type: 2}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726180170722294310, guid: de03094f24271544bb090668907abcd2,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3915271814115703000, guid: de03094f24271544bb090668907abcd2,
         type: 3}
       propertyPath: m_audioClip
