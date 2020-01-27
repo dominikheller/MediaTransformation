@@ -1,6 +1,3 @@
-
-![Alt text](screenshots/Plakat.png?raw=true "Title")
-
 # MediaTransformation
 Unity Projekt basiert auf der Kurzgeschichte "Barn Burning" für das Seminar Media Transformation 1
 
@@ -17,7 +14,7 @@ Dass ein Objekt interagierbar ist erkennt man daran dass der Punkt in der Mitte 
 # Tipps
 Solltest du Schwierigkeiten fortzufahren ist hier eine Liste aller Hinweise:
 
-Berge:
+**Berge:**
 - Der erste Teleporter in der Lichtung
 - Der Schornstein auf der Scheune
 - Das Schloss an der Scheune
@@ -25,27 +22,28 @@ Berge:
 - Die Stützen welche die Scheune übers Wasser halten
 - Die Bierdosen
 
-Wüste:
+**Wüste:**
 - Die Holzbalken in der kaputten Scheune
 - Das Boot
 - Der Schädel (weit vom Levelbeginn entfernt)
 
-Scheuneninnenraum:
+**Scheuneninnenraum:**
 - Die Axt in der Stütze oben
 - Die Vogelscheuche
 - Der Schlüssel auf einem der Balken oben
 - Der "Fremdkörper" verschlossen hinter der Tür (zuerst muss der Schlüssel aufgesammelt werden)
 
-Dev Menü:
+**Dev Menü:**
 Solltest du nach dem Spielen dir nochmal eine bestimmte Szene anschauen wollen, kannst du grade nach oben schauen und klicken um in das "Play" level zu gelangen. Dort kannst du nochmal nach oben schauen und klicken um eine geheime Levelübersicht zu aktivieren von welcher du sofort in jedes beliebige Level laden kannst. Warnung: Auf diese Weise zwichen Leveln herumzuspringen bricht die Übergänge zwischen Leveln, um das Spiel nochmals von Anfang bis Ende spielen zu können muss das Spiel geschlossen und neu gestartet werden.
 
 
 # Branches
-master - Mobile branch welche sich für Google VR und GearVR builded lässt. 99% Der Entwicklung passierte hier.
-Oculus_Master - Port welche das Projekt auch auf einer Oculus Rift spielbar macht.
+**master** - Mobile branch welche sich für Google VR und GearVR builded lässt. 99% Der Entwicklung passierte hier.
+**Oculus_Master** - Port welche das Projekt auch auf einer Oculus Rift spielbar macht.
 
 
-# Screenshots
+# Bilder
+![Alt text](screenshots/poster.png?raw=true "Title")
 ![Alt text](screenshots/kVJcYQeexm.png?raw=true "Title")
 ![Alt text](screenshots/Q1PV305yLT.png?raw=true "Title")
 ![Alt text](screenshots/iY3eCNmtlB.png?raw=true "Title")
