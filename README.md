@@ -34,7 +34,7 @@ Scheuneninnenraum:
 - Der "Fremdkörper" verschlossen hinter der Tür (zuerst muss der Schlüssel aufgesammelt werden)
 
 Dev Menü:
-Solltest du nach dem Spielen dir nochmal eine bestimmte Szene anschauen wollen, kannst du gerade nach oben schauen und klicken um in das "Play" level zu gelangen. Dort kannst du nochmal nach oben schauen und klicken um eine geheime Levelübersicht zu aktivieren von welcher du sofort in jede beliebige Level laden kannst. Warnung: So zwichen Leveln herumzuspringen bricht die Übergänge zwischen Leveln, um das Spiel nochmals von Anfang bis Ende spielen zu können muss das Spiel geschlossen und neu gestartet werden.
+Solltest du nach dem Spielen dir nochmal eine bestimmte Szene anschauen wollen, kannst du grade nach oben schauen und klicken um in das "Play" level zu gelangen. Dort kannst du nochmal nach oben schauen und klicken um eine geheime Levelübersicht zu aktivieren von welcher du sofort in jedes beliebige Level laden kannst. Warnung: Auf diese Weise zwichen Leveln herumzuspringen bricht die Übergänge zwischen Leveln, um das Spiel nochmals von Anfang bis Ende spielen zu können muss das Spiel geschlossen und neu gestartet werden.
 
 
 # Branches
